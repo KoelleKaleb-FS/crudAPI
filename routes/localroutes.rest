@@ -1,0 +1,30 @@
+GET http://localhost:8000/students
+
+###
+
+GET http://localhost:8000/students/66e351ce1df08a3bc55afc38
+
+###
+
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+    "name": "Kaleb",
+    "class": "DWA"
+}
+
+###
+
+DELETE http://localhost:8000/students/66e351ce1df08a3bc55afc38
+
+###
+
+PATCH http://localhost:8000/students/66e352091df08a3bc55afc3a
+Content-Type: application/json
+
+{
+    "name": "Kaleb Koelle",
+    "class": "New Class"
+}
+
